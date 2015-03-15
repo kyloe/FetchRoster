@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FetchRoster</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.epic.perleditor.perlbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.epic.perleditor.perlnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Database Schema</name>
+			<type>2</type>
+			<locationURI>PARENT-8-PROJECT_LOC/home/ian/CloudStation/Projects/Logbooks/Database%20Schema</locationURI>
+		</link>
+		<link>
+			<name>conf</name>
+			<type>2</type>
+			<locationURI>PARENT-8-PROJECT_LOC/home/ian/CloudStation/Projects/Raido/conf</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
