@@ -3,7 +3,7 @@
 use CGI;
 use WWW::Mechanize;
 use HTML::TreeBuilder;
-use Kyloe::Raido::Connector;
+use Kyloe::Raido::Connector::Roster;
  
 # Example URL: http://www.kyloe.net/dance/public/cal/999.ics    
 
@@ -36,7 +36,7 @@ my $calendarsx  =
 foreach $name (keys %$calendars)  
 	{
 
-	my $raido = Kyloe::Raido::Connector->new();
+	my $raido = Kyloe::Raido::Connector::Roster->new();
 	
 	$raido->login($calendars->{$name}->{staffid},$calendars->{$name}->{password}) or die "Login failed\n";
 	$raido->getRoster or die "Couldn't retrieve current roster page\n";
