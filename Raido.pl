@@ -26,7 +26,8 @@ my $calendars =
         'James Workman'       =>  {staffid => '106',	password => 'abc227',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Sarah Hendry'       =>  {staffid => '021',	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Rob Hendry'       =>  {staffid => '1015',	password => 'dba234',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
-};
+        'Paul Monaghan'       =>  {staffid => '1019',	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
+	};
 
 my $calendarsx  = 
 	{
