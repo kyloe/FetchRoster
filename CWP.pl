@@ -9,8 +9,8 @@ use Kyloe::CWP::Connector;
 
 my $calendars  = 
 	{
-        'Laura Hendry'       =>  {staffid => '20108436',	password => '170882',			altsummary=>['CODE'], summary=>['DEP','-','ARR']},
-        'Sarah Hendry'       =>  {staffid => '20109916',	password => '291182',			altsummary=>['CODE'], summary=>['DEP','-','ARR']},
+        'Laura Hendry'       =>  {staffid => '20108436',	password => '170882',	checkin=>'yes',	altsummary=>['CODE'], summary=>['DEP','-','ARR']},
+        'Sarah Hendry'       =>  {staffid => '20109916',	password => '291182',	checkin=>'yes',	altsummary=>['CODE'], summary=>['DEP','-','ARR']},
     };
     
 foreach $name (keys %$calendars)  
