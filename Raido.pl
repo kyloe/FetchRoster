@@ -14,7 +14,7 @@ my $calendars =
 	'Paul Blackler'		=>  {staffid => 104, 	password => '104',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR']},
 	'Jamie McDonald' 	=>  {staffid => 101, 	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR']},
      	'Murray Gibbons' 	=>  {staffid => 117, 	password => '117',                	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
-     	'Ashely Eagles' 	=>  {staffid => '058', 	password => 'roster',             	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
+     	'Ashley Eagles' 	=>  {staffid => '058', 	password => 'roster',             	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
      	'Dawn Hunter' 		=>  {staffid => '074', 	password => 'test',               	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Brian Moher'       =>  {staffid => '1014',	password => 'cba321',             	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Scott Menzies'     =>  {staffid => '1022',	password => 'test',             	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
