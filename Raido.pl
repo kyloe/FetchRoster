@@ -7,6 +7,16 @@ use Kyloe::Raido::Connector::Roster;
  
 # Example URL: http://www.kyloe.net/dance/public/cal/999.ics    
 
+# Structure this service as a generic service so that # it can be called from a dumb parent program
+# A service looks like this
+# 
+# 1. is ISA Kyloe::SaneRoster::Service
+# 2. It can getStartData
+# 3. Login
+# 4. doProcessing
+# 5. writeDaat
+
+
 my $calendars = 
 	{
      	'Andy Forey' 	=>  {staffid => '094', 	password => 'cptnrd1',                	checkin=>'yes',altsummary=>['CODE'],summary=>['DEP','-','ARR']},
