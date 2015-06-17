@@ -20,7 +20,7 @@ use Kyloe::Raido::Connector::Roster;
 my $calendars = 
 	{
      	'Andy Forey' 	=>  {staffid => '094', 	password => 'cptnrd1',                	checkin=>'yes',altsummary=>['CODE'],summary=>['DEP','-','ARR']},
-	'Ian Bottomley'		=>  {staffid => 115, 	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR'],altfilename=>'115'},
+	'Ian Bottomley'		=>  {staffid => 115, 	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR']},
 	'Paul Blackler'		=>  {staffid => 104, 	password => '104',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR']},
 	'Jamie McDonald' 	=>  {staffid => 101, 	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['CODE',' ','DEP','-','ARR']},
      	'Murray Gibbons' 	=>  {staffid => 117, 	password => '117',                	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
@@ -38,6 +38,7 @@ my $calendars =
         'Rob Hendry'       =>  {staffid => '1015',	password => 'dba234',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Paul Monaghan'       =>  {staffid => '1019',	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
         'Paul Wickman'       =>  {staffid => '052',	password => 'test',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
+        'Ben Chesworth'       =>  {staffid => '1010',	password => 'Percycat',	checkin=>'yes',	altsummary=>['CODE'],summary=>['DEP','-','ARR']},
 	};
 
 my $calendarsx  = 
